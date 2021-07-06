@@ -37,18 +37,6 @@ h4{
 export const QuestionText = sytyled.div`
 width: 100%;
 padding: 20px;
-animation: ${(props) => (props.open ? 'slideInUp' : 'slideOutDown')} 1s;
-slideOutDown: {
-    animation-delay: 0.5s;
-    animation-duration: 0.5s;
-    animation-fill-mode: both;
-}
-slideInUp: {
-    animation-delay: 0s;
-    animation-duration: 0.5s;
-    animation-fill-mode: both;
-}
-
 `
 export const Button = sytyled.button`
 position: absolute;

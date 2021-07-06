@@ -21,7 +21,7 @@ const SingleQuestion = ({ title, info }) => {
             {showQuestion ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />}
           </Button>
         </QuestionTitle>
-        <QuestionText open={info}>{showQuestion && <p>{info}</p>}</QuestionText>
+        <QuestionText>{showQuestion && <p>{info}</p>}</QuestionText>
       </Accordion>
     </Wrapper>
   )
